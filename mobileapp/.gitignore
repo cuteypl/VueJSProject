@@ -1,0 +1,14 @@
+.DS_Store
+node_modules/
+# /dist/ #不能忽视该文件夹，不然上传不到github上，导致无法在github上展示index.html
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
